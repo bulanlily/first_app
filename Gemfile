@@ -9,8 +9,7 @@ group :development do
 end
 
 group :production do
-  # gems specifically for Heroku go here
-  gem 'pg'
+  gem 'pg', '0.12.2'
 end
 
 
