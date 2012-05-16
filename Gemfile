@@ -10,7 +10,8 @@ end
 
 group :production do
   # gems specifically for Heroku go here
-  gem 'pg'
+  gem 'rspec-rails', '2.6.1'
+  gem 'sqlite3', '1.3.5'
 end
 
 
